@@ -1,7 +1,8 @@
 
 1) git clone
-2) git add .
+2) git add . 
 3) git commit -m "comentario del commit"
 4) git push // ingresar nombre de usuario y clave de github//
+//siempre que se altera o se agregan archivos repetir paso 2 al 4
 
 
