@@ -4,9 +4,12 @@
 */
 function mostrar()
 {
-var nombre
-nombre= prompt(nombre= elNombre.value)
+var nombre;
+
+nombre= prompt("dime tu nombre");
+
+elNombre.value=nombre;
+
 alert(nombre)
-//alta pizza la del buffet
 }
 
