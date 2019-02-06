@@ -27,7 +27,7 @@ function restar()
 	var segundoNumero
 
 
-primerNumero =numeroUno.value;
+	primerNumero =numeroUno.value;
 	segundoNumero =numeroDos.value;
 
 	primerNumero =parseInt(primerNumero);
@@ -48,12 +48,12 @@ function multiplicar()
 	primerNumero =numeroUno.value;
 	segundoNumero =numeroDos.value;
 
-	alert((primerNumero) * (segundoNumero));
 
 	primerNumero = parseInt(primerNumero);
 	segundoNumero = parseInt(segundoNumero);
 
 
+	alert((primerNumero) * (segundoNumero));
 }
 
 function dividir()
@@ -66,11 +66,10 @@ function dividir()
 	primerNumero =numeroUno.value;
 	segundoNumero =numeroDos.value;
 
-	alert((primerNumero) / (segundoNumero));
 
 	primerNumero = parseInt(primerNumero);
 	segundoNumero = parseInt(segundoNumero);
 
-
+	alert((primerNumero) / (segundoNumero));
 }
 
