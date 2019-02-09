@@ -6,7 +6,7 @@ function SacarResto()
 {
 	var primerNumero;
 	var segundoNumero;
-	var resto
+	var SacarResto
 
 	primerNumero =numeroDividendo.value;
 	segundoNumero =numeroDivisor.value;

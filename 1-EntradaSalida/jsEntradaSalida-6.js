@@ -13,9 +13,13 @@ function sumar()
 	primerNumero = parseInt(primerNumero);
 	segundoNumero = parseInt(segundoNumero);
 
-
-
 	alert((primerNumero) + (segundoNumero));
+
+	//*tambien se puede agregar valor escribiendo primerNumero = getelementbyId(numeroUno).value;
+
+
+
+
 
 	}
 

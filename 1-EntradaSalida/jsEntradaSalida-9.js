@@ -8,11 +8,13 @@ function mostrarAumento()
 	var primerNumero;
 	var segundoNumero;
 
-	primerNumero =primerNumero.value;
+	primerNumero =sueldo.value;
+	segundoNumero = resultado*1.1.value;
 
-	segundoNumero = primerNumero*1.1;
+	primerNumero = parseInt(primerNumero);
+	segundoNumero = parseInt(segundoNumero);
 
-	segundoNumero.value= primerNumero;
+	alert(segundoNumero);
 
 
 
