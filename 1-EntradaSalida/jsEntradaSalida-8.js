@@ -15,8 +15,7 @@ function SacarResto()
 	segundoNumero =parseInt(segundoNumero);
 	SacarResto =(primerNumero % segundoNumero);
 	
-	alert((primerNumero) % (segundoNumero));
-	alert("El resto es: " +resto+);
+	alert("El resto es: " +SacarResto);
 
 
 
