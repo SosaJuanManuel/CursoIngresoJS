@@ -4,7 +4,7 @@ function mostrar()
 {
 	var nombre;
 
-	nombre =prompt("Por favor muestrame tu nombre");
+	nombre = prompt("Por favor muestrame tu nombre");
 	
     alert("tu te llamas: " + nombre);
  

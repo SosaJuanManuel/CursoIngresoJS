@@ -8,8 +8,8 @@ var nombre;
 
 nombre= prompt("dime tu nombre");
 
-//elNombre.value=nombre;
-document.getElementById("elNombre")
+elNombre.value=nombre;
+document.getElementById("elNombre");
 
 alert(nombre);
 }
