@@ -9,7 +9,7 @@ function mostrar()
 	edad =laEdad.value;
 
 alert(nombre+edad);
-alert( "Usted se llama "+nombre+" y tiene " +edad+ "años");
+alert( "Usted se llama "+nombre+" y tiene "+edad+"años");
 //para concatenar escribir el signo + y el valor entre comillas
 }
 

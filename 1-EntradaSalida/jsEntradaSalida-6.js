@@ -10,11 +10,12 @@ function sumar()
 	primerNumero =numeroUno.value;
 	segundoNumero =numeroDos.value;
 
-	alert((primerNumero) + (segundoNumero));
-
 	primerNumero = parseInt(primerNumero);
 	segundoNumero = parseInt(segundoNumero);
 
+
+
+	alert((primerNumero) + (segundoNumero));
 
 	}
 

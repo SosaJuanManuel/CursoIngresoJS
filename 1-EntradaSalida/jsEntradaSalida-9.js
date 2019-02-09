@@ -5,14 +5,14 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 
 { 
-	var valor;
-	var result;
+	var primerNumero;
+	var segundoNumero;
 
-	valor =valor.value;
+	primerNumero =primerNumero.value;
 
-	valor = valor*1.1;
+	segundoNumero = primerNumero*1.1;
 
-	result.value= valor;
+	segundoNumero.value= primerNumero;
 
 
 
