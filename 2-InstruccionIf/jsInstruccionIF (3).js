@@ -2,7 +2,7 @@ function mostrar()
 {
 //tomo la edad  
 
-var primerNumero;
+	var primerNumero;
 
 	primerNumero = parseInt(primerNumero)
 
@@ -16,7 +16,7 @@ var primerNumero;
 
 	if(primerNumero <= 17)
 
-		{ alert("usted es menor de edad, pendejo");
+		{ alert("usted es menor de edad,ja pendejo");
 
 	}
 
