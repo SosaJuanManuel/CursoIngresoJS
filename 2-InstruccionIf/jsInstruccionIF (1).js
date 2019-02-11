@@ -1,8 +1,12 @@
 function mostrar()
 {
-//tomo la edad  
+//tomo la edad
+
+//no es necesario par  
 
 	var primerNumero;
+
+	primerNumero = parseInt(primerNumero)
 
 	primerNumero = edad.value;
 
