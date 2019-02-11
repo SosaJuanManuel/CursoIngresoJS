@@ -6,18 +6,31 @@ function mostrarAumento()
 
 { 
 	var primerNumero;
-	var segundoNumero;
+	var resultado;
 
-	primerNumero =sueldo.value;
-	segundoNumero = resultado*1.1.value;
+	primerNumero = document.getElementById("sueldo").value;
+	resultado = document.getElementById("resultado").value;
 
 	primerNumero = parseInt(primerNumero);
-	segundoNumero = parseInt(segundoNumero);
+	resultado = (primerNumero * 110 / 100);
 
-	alert(segundoNumero);
+	alert("el resultado es:" +resultado);
 
 
+	
 
+//modelo del ej 9 y 10
+
+//var numeroUno ;
+//var resultado ;
+
+//numeroUno = document.getElementById('sueldo').value ;
+//resultado = document.getElementById('resultado').value ;
+
+//numeroUno = parseInt (numeroUno) ;
+//resultado = (numeroUno * 110 / 100) ;
+
+//alert ("El aumento es:" +resultado) ;
 
 
 
