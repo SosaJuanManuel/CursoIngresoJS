@@ -11,7 +11,7 @@ function mostrar()
 
 	relacion = estadoCivil.value
 
-	if(laEdad <18 && relacion = soltero)
+	if(laEdad <18 + relacion =Casado || relacion=Divorciado)
 		{
 			alert( 'Es muy pequeño para NO ser soltero.')
 
