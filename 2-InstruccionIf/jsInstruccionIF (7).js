@@ -9,14 +9,14 @@ function mostrar()
 	laEdad.parseint(laEdad);
 	laEdad = edad.value;
 
-	relacion = estadoCivil.value
+	relacion=estadoCivil.value
 
-	if(laEdad <18 + relacion =Casado || relacion=Divorciado)
+	if(laEdad <18 && relacion=Soltero )
 		{
 			alert( 'Es muy pequeño para NO ser soltero.')
 
 
-		}
+		};
 
 
 
