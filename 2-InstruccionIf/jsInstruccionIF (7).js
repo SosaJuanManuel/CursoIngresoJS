@@ -3,20 +3,22 @@ function mostrar()
 //tomo la edad  
 
 	
-	var laEdad;
-	var relacion;
+	var primerNumero;
+	var estado;
 
-	laEdad.parseint(laEdad);
-	laEdad = edad.value;
+	primerNumero = edad.value;
+	estado = estadoCivil.value;
 
-	relacion=estadoCivil.value
+	primerNumero = parseInt(primerNumero);
 
-	if(laEdad <18 && relacion=Soltero )
-		{
-			alert( 'Es muy pequeño para NO ser soltero.')
+	if (primerNumero > 17 && estado == Soltero) 
+	
+	{
 
+		alert("usted es muy pequeño para no ser Soltero");
 
-		};
+	}
+
 
 
 
