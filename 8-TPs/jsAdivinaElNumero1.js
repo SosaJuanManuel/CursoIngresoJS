@@ -12,11 +12,38 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
-	 
-		//alert(numeroSecreto );
-	
+	var numeroSecreto
+	var contadorIntentos
+	var primerNumero
 
+	primerNumero = prompt(" dime un numero")
+	//Genero el número RANDOM entre 1 y 100
+	 numeroSecreto = Math.floor((Math.random() * 10) + 1);
+		//alert(numeroSecreto );
+	contadorIntentos = contadorIntentos + 1
+
+	if ( primerNumero = numeroSecreto) 
+	
+	{
+
+		alert("Usted es un ganador y en solo "+contadorIntentos+" intentos”");
+
+
+	}
+	else
+		{
+			if (primerNumero > numeroSecreto) 
+
+			{
+
+				alert("te pasaste");
+			}
+
+			else
+			{
+				alert ("te falta");
+			}
+		}
 }
 
 function verificar()
