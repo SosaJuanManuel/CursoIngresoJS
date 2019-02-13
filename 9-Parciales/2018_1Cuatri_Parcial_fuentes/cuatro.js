@@ -8,10 +8,16 @@ function mostrar()
 	primerNumero = promt("dime un numero");
 	segundoNumero = prompt("dime otro numero");
 
+<<<<<<< HEAD
+=======
+	primerNumero = parseInt(primerNumero);
+	segundoNumero = parseInt(segundoNumero);
+>>>>>>> 670305b6de9129e4d8d30921f455d026114ce757
 
 	if(primerNumero == segundoNumero)
 	{
 
+<<<<<<< HEAD
 		resultado = primerNumero + segundoNumero;
 
 		alert(resultado);
@@ -57,3 +63,34 @@ function mostrar()
 			}
 	}
 }
+=======
+		alert(primerNumero+ " y " +segundoNumero);
+
+	}
+	else
+		{
+
+			if(primerNumero > segundoNumero)
+			{
+
+				alert(primerNumero - segundoNumero)
+
+			}
+
+			if (primerNumero < segundoNumero)
+			{
+
+			alert(primerNumero + segundoNumero)
+			
+			}
+
+			else
+			{
+
+				
+				
+			}
+
+
+}
+>>>>>>> 670305b6de9129e4d8d30921f455d026114ce757
