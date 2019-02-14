@@ -1,20 +1,29 @@
 
 function mostrar()
 {
-	var ancho
-	var largo
-	var perimetro
-	
-	ancho = prompt("introduzca el ancho")
-	largo = prompt("introduzca el largo")
+	var nombreUno
+	var nombreDos
+	var primerNumero
+	var segundoNumero
+	var resultado
 
-	ancho = parseInt(ancho);
-	largo = parseInt(largo);
+	nombreUno = prompt("quienes son?");
 
-	perimetro = (ancho + largo) *2;
+	nombreDos = prompt(" y quien es el o ella?");
 
-	alert("el perimetro es de: " +perimetro);
+	primerNumero = prompt("digan su edad");
 
+	segundoNumero = prompt("y la otra?");
+
+	primerNumero = parseInt(primerNumero);
+
+	segundoNumero = parseInt(segundoNumero);
+
+	resultado = parseInt(resultado);
+
+	resultado = primerNumero ++ segundoNumero;
+
+	alert("ustedes son"+nombreUno+"y"+nombreDos+", sus edades son "+primerNumero+" y "+segundoNumero+ ", y la suma de sus edades es " +resultado);
 
 
 

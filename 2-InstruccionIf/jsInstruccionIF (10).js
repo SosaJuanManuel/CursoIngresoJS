@@ -4,31 +4,23 @@ function mostrar()
 	var numeroRamdon ;
 
 	numeroRamdon = Math.floor((Math.random() * 10) + 1);
-
-	alert (numeroRamdon); 
-
+	
+	alert(numeroRamdon); 
+	
 	if (numeroRamdon >= 9)
 		{
-			alert ("Excelente.") ;
+		alert("Excelente.");
 		}
-
-			else 
-
+	else 
+	{
+		if (numeroRamdon >= 4)
+			{ 
+			alert("Aprobo.");
+			}
+		else 
 			{
-				if (numeroRamdon >= 4)
-
-					{ 
-				
-					alert ("Aprobo.")
-				
-					}
-		
-			else 
-				{
-				
-				alert ("Vamos, la proxima se puede.")
-				
-				}
-		}
+			alert("Vamos, la proxima se puede.");
+			}
+	}
 
 }//FIN DE LA FUNCIÓN

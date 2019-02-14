@@ -1,96 +1,36 @@
 function mostrar()
+/* al realizar una compra, si compra de mas de dos productos se realiza un descuento del 10% y si supero los $2000 se agrega un descuento adicional de 15%, si el pago es con tarjeta y no efectivo al precio final se le agruega un 10% de recargo */
 {
+	var pago;
+	var compra;
+	var cantidad;
+	var metodoPago;
 
-	var primerNumero;
-	var segundoNumero;
-	var resultado;
+	pago = prompt("digame de cuanto a sido la compra?");
+	cantidad = prompt("digame cuantos productos?");
+	metodoPago = prompt("inserte 1 para pagos con credito o 2 para pago en efectivo");
 
-	primerNumero = promt("dime un numero");
-	segundoNumero = prompt("dime otro numero");
+	pago = parseInt(pago);
+	compra = parseInt(compra);
+	cantidad = parseInt(cantidad);
 
-<<<<<<< HEAD
-=======
-	primerNumero = parseInt(primerNumero);
-	segundoNumero = parseInt(segundoNumero);
->>>>>>> 670305b6de9129e4d8d30921f455d026114ce757
-
-	if(primerNumero == segundoNumero)
+	if(cantidad > 2)
 	{
+		compra = (pago * 90)/100;
 
-<<<<<<< HEAD
-		resultado = primerNumero + segundoNumero;
-
-		alert(resultado);
-
-	}
-
-	else
+		if(pago > 2000)
 		{
-
-			primerNumero = parseInt(primerNumero);
-			segundoNumero = parseInt(segundoNumero);
-
-			if(primerNumero > segundoNumero)
-			
-			{
-			
-			resultado = (primerNumero - segundoNumero);
-
-			alert(resultado);
-			
-			}
-
+			compra = (pago *85) / 100;
+		}	
 		else
-
-			{
-
-			resultado = (primerNumero + segundoNumero) ;
-
-					if (resultado > 10)
-
-				{
-
-						alert ("La suma es " +resultado+ " y supero el 10.") ;
-
-				}
-
-					else 
-					{
-						
-						alert (resultado) ;
-					
-					}
-			}
-	}
-}
-=======
-		alert(primerNumero+ " y " +segundoNumero);
-
-	}
-	else
 		{
-
-			if(primerNumero > segundoNumero)
-			{
-
-				alert(primerNumero - segundoNumero)
-
-			}
-
-			if (primerNumero < segundoNumero)
-			{
-
-			alert(primerNumero + segundoNumero)
-			
-			}
-
-			else
-			{
-
-				
-				
-			}
-
+			compra = (pago *90) / 100;
+		}
+	}
+	if(metodoPago == 1)
+	{
+		compra = (pago *110) / 100;
+	}
+	alert("el monto a pagar es de: " +compra);
 
 }
->>>>>>> 670305b6de9129e4d8d30921f455d026114ce757
