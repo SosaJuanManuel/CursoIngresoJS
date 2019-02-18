@@ -11,7 +11,7 @@ function mostrar()
 
 	primerNumero = parseInt(primerNumero);
 
-	if (primerNumero > 17 && estado == Soltero) 
+	if (primerNumero < 17 && estado != "Soltero") 
 	
 	{
 

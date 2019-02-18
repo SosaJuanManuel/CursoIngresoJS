@@ -18,7 +18,7 @@ function CalcularPrecio ()
 
  	primerNumero = Cantidad.value;
  	sello = Marca.value;
- 	
+
  	primerNumero = parseInt(primerNumero);
  	valor = parseInt(valor);
  	precioFinal= parseInt(precioFinal);
@@ -29,7 +29,6 @@ function CalcularPrecio ()
  	if(primerNumero >= 6)
  	{
  		precioFinal = (valor * 50) / 100;
- 	
  	}
  	else
  		{
@@ -76,13 +75,13 @@ function CalcularPrecio ()
  					}
  				}
  			}
- 		}
- 	if (precioFinal >= 120)
+ 	 }
+ 	 if (precioFinal >= 120)
  	{
  		precioIngresoBruto = (precioFinal * 10) / 100 ;
+ 		alert ("Usted pago " +precioIngresoBruto+ " de IIBB");
  	}
  }
-alert ("Usted pago " +precioIngresoBruto+ " de IIBB");
-
+precioDescuento.value = precioFinal;
 }	
 
