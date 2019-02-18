@@ -78,10 +78,10 @@ function CalcularPrecio ()
  		}
  	if (precioFinal <= 120)
  	{
- 		precioconIIBB = (precioFinal * 110) / 100 ;
+ 		precioIngresoBruto = (precioFinal * 110) / 100 ;
  	}
 
-alert ("IIBB Usted pago " +precioconIIBB+ " siendo " +precioFinal+ " el impuesto que se pago.");
+alert ("IIBB Usted pago " +precioIngresoBruto+ " siendo " +precioFinal+ " el impuesto que se pago.");
 
 }	
 
