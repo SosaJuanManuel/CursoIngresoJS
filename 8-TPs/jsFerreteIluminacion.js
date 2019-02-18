@@ -18,12 +18,13 @@ function CalcularPrecio ()
 
  	primerNumero = Cantidad.value;
  	sello = Marca.value;
- 	precioFinal = precioDescuento.value;
  	
  	primerNumero = parseInt(primerNumero);
  	valor = parseInt(valor);
  	precioFinal= parseInt(precioFinal);
  	precioIngresoBruto= parseInt(precioIngresoBruto);
+
+ 	valor = primerNumero * 35;
 
  	if(primerNumero >= 6)
  	{
@@ -34,7 +35,7 @@ function CalcularPrecio ()
  		{
  			if(primerNumero == 5)
  			{
- 				if(sello == ArgentinaLuz)
+ 				if(sello == "ArgentinaLuz")
  				{
  				
  				precioFinal = (valor *60) / 100;
@@ -76,12 +77,12 @@ function CalcularPrecio ()
  				}
  			}
  		}
- 	if (precioFinal <= 120)
+ 	if (precioFinal >= 120)
  	{
- 		precioIngresoBruto = (precioFinal * 110) / 100 ;
+ 		precioIngresoBruto = (precioFinal * 10) / 100 ;
  	}
-
-alert ("Usted pago " +precioIngresoBruto+ " de IIBB, siendo " +precioFinal+ " el impuesto que se pago.");
+ }
+alert ("Usted pago " +precioIngresoBruto+ " de IIBB");
 
 }	
 
