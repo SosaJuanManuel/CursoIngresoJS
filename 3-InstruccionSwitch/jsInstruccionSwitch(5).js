@@ -2,19 +2,17 @@ function mostrar()
 {
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
-var mensaje="";
-//alert (laHora);
 	
+	laHora = parseInt(laHora);
 
-
-	switch(laHora)
+	switch (laHora)
 	{
-		case lahora > 6 && <11:
-		alert(hola)
-
-
+		case 7 :
+		case 8 :
+		case 9 :
+		case 10 :
+		case 11 :
+		alert("Es de mañana.");
+		break;
 	}
-
-
-
 }//FIN DE LA FUNCIÓN
