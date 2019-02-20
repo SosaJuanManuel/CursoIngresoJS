@@ -1,7 +1,8 @@
 function mostrar()
 {
-	var hora = prompt("que hora es?");
+	var hora	
 	mensaje = "";
+	hora= laHora.value;
 	hora = parseInt(hora);
 	switch(hora)
 	{
@@ -11,6 +12,7 @@ function mostrar()
 		case 4:
 		case 5:
 		mensaje = "Es de noche";
+		break;
 
 		case 6 :
 		case 7 :
@@ -40,7 +42,8 @@ function mostrar()
 		mensaje = "Es de noche";
 		if (mensaje = "Es de noche" && hora < 24)
 		{
-		mensaje = "Es de noche,a dormir";
+		alert("a dormir");
+		mensaje = "Es de noche";
 		}
 		break;
 

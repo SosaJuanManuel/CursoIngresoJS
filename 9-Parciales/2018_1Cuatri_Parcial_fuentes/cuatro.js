@@ -5,12 +5,12 @@ function mostrar()
 	var segundoNumero;
 	var resultado;
 
-	primerNumero = prompt("por favot, dime un numero");
+	primerNumero = prompt("por favor, dime un numero");
 	segundoNumero = prompt("dime otro numero");
 
 	if(primerNumero == segundoNumero)
 	 {
-	 	alert(primerNumero+" y "+ segundoNumero);
+	 	alert(primerNumero + segundoNumero);
 	 }
 	 else
 		{
@@ -19,7 +19,7 @@ function mostrar()
 				resultado = primerNumero - segundoNumero;
 				alert(resultado);
 			}
-			if (primerNumero < segundoNumero) 
+			else
 				{
 					resultado = primerNumero + segundoNumero;
 					alert(resultado);	
