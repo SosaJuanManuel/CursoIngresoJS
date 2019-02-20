@@ -1,22 +1,30 @@
 function mostrar()
 {
-	var planeta;
-
-	planeta = prompt("dime un planeta del sistema solar");
-
+	var planeta=prompt("ddime un planeta del sistema solar");
+	mensaje = "";
 	switch(planeta)
 	{
 		case "mercurio":
 		case "venus":
-		alert("acá hace más calor");
+		mensaje="acá hace más calor";
 		break;
 
 		case "tierra":
-		alert("acá vivimos");
+		mensaje= "acá vivimos";
+		break;
+
+		case "marte":
+		case "jupiter":
+		case "saturno":
+		case "urano":
+		case "neptuno":
+		mensaje"acá hace más frio";
 		break;
 
 		default
-		alert("acá hace más frio");
+		mensaje="no es un planeta valido";
 		break;
 	}
+	alert(mensaje);
 }
+
