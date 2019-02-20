@@ -5,6 +5,13 @@ function mostrar()
 	hora = parseInt(hora);
 	switch(hora)
 	{
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		mensaje = "Es de noche";
+
 		case 6 :
 		case 7 :
 		case 8 :
@@ -33,7 +40,7 @@ function mostrar()
 		mensaje = "Es de noche";
 		if (mensaje = "Es de noche" && hora < 24)
 		{
-		mensaje = "A dormir";
+		mensaje = "Es de noche,a dormir";
 		}
 		break;
 
@@ -41,10 +48,5 @@ function mostrar()
 		mensaje = "La hora no es válida";
 		break;
 	}
-
-
-
 alert (mensaje) ;
-
-
 }
