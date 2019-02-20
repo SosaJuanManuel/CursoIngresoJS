@@ -1,6 +1,6 @@
 function mostrar()
 {
-	var planeta=prompt("ddime un planeta del sistema solar");
+	var planeta=prompt("dime un planeta del sistema solar");
 	mensaje = "";
 	switch(planeta)
 	{
@@ -18,7 +18,7 @@ function mostrar()
 		case "saturno":
 		case "urano":
 		case "neptuno":
-		mensaje"acá hace más frio";
+		mensaje="acá hace más frio";
 		break;
 
 		default
