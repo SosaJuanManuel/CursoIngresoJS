@@ -29,3 +29,25 @@ if (mensaje != "")
 
 
 }//FIN DE LA FUNCIÓN
+switch(mesDelAño)
+	{
+		case "Julio":
+		case "Agosto":
+		mensaje="Abrigate que hace frio.";
+		break; 
+
+		case "Septiembre":
+		case "Octubre":
+		case "Noviembre":
+		mensaje="Ya pasamos el frio, ahora calor!!!.";
+		break;
+	
+
+		default
+		mensaje="Falta para el invierno.";
+		break;
+	}
+if(mensaje != "")
+	{
+		alert(mensaje);
+	}

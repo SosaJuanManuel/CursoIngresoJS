@@ -3,17 +3,16 @@ function mostrar()
 //tomo la edad  
 
 
-	var primerNumero;
+	var primerNumero=edad.value;
 
 	primerNumero = parseInt(primerNumero);
 
-	primerNumero = edad.value;
+	if (primerNumero >=17 || primerNumero<= 13 ) 
+	{
+		alert("usted es no es un adoloscente");
+	}
 
-	if (primerNumero >=17 || primerNumero <= 12 )
 
-		{ alert("usted no es un adolescente");
-
-		}
 
 
 }//FIN DE LA FUNCIÓN

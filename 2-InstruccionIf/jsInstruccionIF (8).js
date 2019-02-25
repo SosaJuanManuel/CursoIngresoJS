@@ -2,21 +2,15 @@ function mostrar()
 {
 //tomo la edad  
 
-	var primerNumero;
-	var estado;
+	var primerNumero=edad.value;
+	var estado=estadoCivil.value;
 
-	primerNumero = edad.value;
-	estado = estadoCivil.value;
+	primerNumero=parseInt(primerNumero);
 
-	primerNumero = parseInt(primerNumero);
-
-	if (primerNumero < 18 && estado != Soltero) 
-	
-	{
-
-		alert("Es soltero y no es menor");
-
-	}
+	if(primerNumero >= 18 && estado== "Soltero")
+		{
+			alert("Es soltero y no es menor");
+		}
 
 
 

@@ -4,9 +4,17 @@ function mostrar()
 {
 	var nombre;
 
-	nombre = prompt("Por favor muestrame tu nombre");
+	nombre = prompt("por favor dime tu nombre");
+
+	alert("tu te llamas: " +nombre+ " ,wow que nombre mas bobo");
+
+
+
+
+
+	//nombre = prompt("Por favor muestrame tu nombre");
 	
-    alert("tu te llamas: " + nombre);
+    //alert("tu te llamas: " + nombre);
  
 
 //poner alert muestrame tu nombre, el +person solo agrega una variante extra

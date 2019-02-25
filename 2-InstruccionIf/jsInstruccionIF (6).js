@@ -2,36 +2,23 @@ function mostrar()
 {
 //tomo la edad  
 
-var primerNumero;
+var primerNumero=edad.value;
 
-	primerNumero = parseInt(primerNumero);
+primerNumero=parseInt(primerNumero);
 
-	primerNumero = edad.value;
-
-	if (primerNumero >=18) 
-	
-		{ alert("usted es mayor de edad");
-
-		}
-	
-	else
+if (primerNumero >= 18) 
 	{
-	
-		if (primerNumero <13)
-		{
+		alert("usted es mayor de edad");
+	}
+if (primerNumero >= 13 && primerNumero <= 17) 
+	{
+		alert("usted es un adolescente");
+	} 
+	else 
+	{
+		alert("usted es un niño")
+	}
 
-			alert("usted es menor de edad");
-
-		}	
-		else
-		{
-
-			alert("usted es un adolescente");
-
-		}
-
-
-}
 
 
 

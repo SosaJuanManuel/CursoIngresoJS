@@ -12,7 +12,7 @@ function mostrarAumento()
 	resultado = document.getElementById("resultado").value;
 
 	primerNumero = parseInt(primerNumero);
-	resultado = (primerNumero * 110 / 100);
+	resultado = (primerNumero * 1,10);
 
 	alert("el resultado es:" +resultado);
 

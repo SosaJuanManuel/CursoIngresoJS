@@ -6,11 +6,18 @@ function mostrar()
 {
 var nombre;
 
-nombre= prompt("dime tu nombre");
+nombre = elNombre.value;
 
-document.getElementById("elNombre").value = nombre;
+nombre = prompt("dime tu nombre");
 
-alert("tu nombre es: " +nombre);
+alert(nombre);
+
+
+
+
+
+
+
 
 //tambien se puede escribir como document.getElementById("elNombre").value y no es escribir elNombre.value=nombre
 }
