@@ -1,50 +1,48 @@
 function mostrar()
 {
+	var promedio = 0;
+	var contador;
+	var ingreso;
 	var sexo;
-	var notas;
-	var contador=0;
-	var promedioNotas;
-	var acumulador=0;
-	var notaMasBaja;
-	var contadorVarones=0;
-	var sexoNotaMasBaja;
+	var cantidadVarones = 0;
+	var notaBaja = 11;
+	var sexoBajo;
 
-	notas=parseInt(notas)
+	for(contador = 0; contador < 5; contador++){
+		ingreso = prompt("Ingrese la nota");
+		ingreso = parseInt(ingreso);
 
-	
+		while(isNaN(ingreso) || ingreso < 0 || ingreso > 10){
+			ingreso = prompt("Error, ingrese una nota valida");
+			ingreso = parseInt(ingreso);
+		}
+		
 
-	while(contador > 5)
-	{
-		sexo=prompt("ingrese f para femenino y m para masculino");
-		notas=prompt("ingrese las notas");
-		contador++;
-		while(notas  11)
-		{
-			notas=prompt("ingrese una nota entre 0 y 10")
+		sexo = prompt("Ingrese el sexo")
+		while(sexo != "f" && sexo != "m"){
+			sexo = prompt("Error, ingrese un sexo valido. (m, f)");
 		}
-		while(sexo != "f" || sexo != "m")
-		{
-			alert("ingrese un sexo valido");
-		}	
-		if (contador ==1) 
-		{
-			notaMasBaja = notas;
-			sexoNotaMasBaja=sexo;
+
+		promedio = promedio + ingreso; //sumo las notas
+
+		if(sexo == "m" && ingreso >= 6){ //cantidad de varones cuya nota sea mayor a 6
+			cantidadVarones = cantidadVarones + 1;
 		}
-		if(sexo == "m" && notas >=6)
-		{
-			contador = contador + 1;
-		}
-		else
-		{
-			if(notas<notaMasBaja)
-				{
-					notaMasBaja=notas;
-					sexoNotaMasBaja=sexo;
-				}
+		
+		if(ingreso < notaBaja){ //nota mas baja
+			notaBaja = ingreso;
+			sexoBajo = sexo;
 		}
 	}
-alert(sexo)
-alert(nota)
-alert(promedio)
+
+	if(sexoBajo == "m"){
+		sexoBajo = "masculino";
+	}else{
+		sexoBajo = "femenino;"
+	}
+
+	promedio = promedio / 5;
+	alert("El promedio es: " + promedio);
+	alert("La nota mas baja es " + notaBaja + " y el sexo del alumno es " + sexoBajo);
+	alert("Los cantidad de varones cuya nota es mayor o igual a 6 es de: " + cantidadVarones);
 }
