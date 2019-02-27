@@ -1,14 +1,14 @@
 function mostrar()
 {
 
-	var numero = prompt("ingrese un número entre 0 y 9");
+	var elNumero = prompt("ingrese un número entre 0 y 9");
 
-	numero = parseInt(numero);
+	elNumero=parseInt(elNumero)
 
-	while(numero > 10)
+	while(elNumero <0 || elNumero < 9)
 	{
-		numero=prompt("ingrese un número entre 0 y 9");
-	}
- numero=Numero.value;
+		elNumero=prompt("por favor, ingrese un numero entre 0 y 9");
+	}	
 
+	elNumero=Numero.value;
 }//FIN DE LA FUNCIÓN
