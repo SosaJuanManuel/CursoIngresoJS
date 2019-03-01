@@ -32,61 +32,42 @@ function mostrar()
 }*/
 
 {
+	
 	var primerNumero;
 	var segundoNumero;
-	var tercerNumero;
-	var cuartoNumero;
-	var precioFinal;
-	var descuento;
+	var suma=parseInt(suma);
+	var resta=parseInt(resta);
+	var resultado;
 
-	primerNumero = parseInt(primerNumero);
-	segundoNumero = parseInt(segundoNumero);
-	tercerNumero = parseInt(tercerNumero);
-	cuartoNumero = parseInt(cuartoNumero);
-	precioFinal = parseInt(precioFinal);
-	descuento = parseInt(descuento);
+	primerNumero=prompt("ingrese un numero");
+	segundoNumero=prompt("ingrese otro numero");
 
-	primerNumero = prompt("digame el primer importe");
-	segundoNumero = prompt("digame el segundo importe");
-	tercerNumero = prompt("digame el tercer importe");
-	cuartoNumero = prompt("digame el cuarto importe");
+	primerNumero=parseInt(primerNumero);
+	segundoNumero=parseInt(segundoNumero);
 
-	precioFinal = primerNumero + segundoNumero + tercerNumero + cuartoNumero;
-
-if (primerNumero >= segundoNumero) 
-	{	
-		alert(primerNumero);
-	}
-else
+	if(primerNumero == segundoNumero)
 	{
-		if(segundoNumero >= tercerNumero)
-		{
-			alert(segundoNumero);
-		}
-		if(tercerNumero >= cuartoNumero)
-		{
-			alert(tercerNumero);
-		}
-		else
-		{
-			alert(cuartoNumero);
-		}	
-	}	
-if(precio Final > 100)
-	{	
-		descuento = precioFinal*0,9;
-		alert(descuento);
+		resultado=primerNumero+segundoNumero;
 	}
 	else
-		{if(precioFinal < 50)
+		{
+			if(primerNumero>segundoNumero)
 			{
-				descuento= precioFinal*0,95;
-				alert(descuento);
-			 }
-			 else
-			 {
-			 	descuento = precioFinal*1,15;
-			 	alert(descuento);
-			 }
-		}	 
+				resultado=primerNumero-segundoNumero
+				alert(resultado);
+			}
+			else
+			{
+				resultado=primerNumero+segundoNumero
+				if(resultado > 10)
+				{
+					alert("la suma es "+resultado+" y supero el 10".);
+				}
+				else
+					alert(resultado);
+			}
+		}
+
+
+
 }
