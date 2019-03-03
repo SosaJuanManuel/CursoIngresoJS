@@ -32,41 +32,39 @@ function mostrar()
 }*/
 
 {
-	
-	var primerNumero;
-	var segundoNumero;
-	var suma=parseInt(suma);
-	var resta=parseInt(resta);
-	var resultado;
-
-	primerNumero=prompt("ingrese un numero");
-	segundoNumero=prompt("ingrese otro numero");
+	var primerNumero=prompt("dime un numero");
+	var segundoNumero=prompt("dime otro numero");
+	var suma;
+	var resta;
 
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
 	if(primerNumero == segundoNumero)
 	{
-		resultado=primerNumero+segundoNumero;
+		alert(primerNumero+segundoNumero;
 	}
 	else
+	{ 
+		if(primerNumero > segundoNumero)
 		{
-			if(primerNumero>segundoNumero)
+			resta=primerNumero - segundoNumero;
+			alert(resta)
+		}
+		else
+		{
+			suma=primerNumero+segundoNumero;
+			alert(suma);
+			if(suma>10)
 			{
-				resultado=primerNumero-segundoNumero
-				alert(resultado);
-			}
-			else
-			{
-				resultado=primerNumero+segundoNumero
-				if(resultado > 10)
-				{
-					alert("la suma es "+resultado+" y supero el 10".);
-				}
-				else
-					alert(resultado);
+				alert("la suma es de "+suma+" y supera a 10");
 			}
 		}
+
+
+
+
+	}
 
 
 
