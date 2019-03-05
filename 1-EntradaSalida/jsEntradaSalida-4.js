@@ -4,14 +4,10 @@
 */
 function mostrar()
 {
-var nombre;
 
-nombre = elNombre.value;
+	var nombre=prompt("ingresa tu nombre");
 
-nombre = prompt("dime tu nombre");
-
-alert(nombre);
-
+	elNombre.value=nombre;
 
 
 

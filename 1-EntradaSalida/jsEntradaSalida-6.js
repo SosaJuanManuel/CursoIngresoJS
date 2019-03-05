@@ -7,13 +7,14 @@ function sumar()
 	var segundoNumero=numeroDos.value;
 	var resultado;
 
-	primerNumero = parseInt(primerNumero);
-	segundoNumero = parseInt(segundoNumero);
-	resultado= parseInt(resultado);
+	primerNumero=parseInt(primerNumero);
+	segundoNumero=parseInt(segundoNumero);
 
-	resultado= primerNumero+segundoNumero;
+	resultado=primerNumero + segundoNumero;
 
-	alert("la suma es: " +resultado);
+	alert("la suma es de: "+resultado);
+
+
 
 
 	//*tambien se puede agregar valor escribiendo primerNumero = getelementbyId(numeroUno).value;

@@ -5,11 +5,7 @@ function mostrar()
 	var nombre=elNombre.value;
 	var edad=laEdad.value;
 
-	nombre=prompt("dime tu nombre");
-	edad=prompt("y tu edad cual es?");
-
-	alert("Uste se llama " +nombre+ " y tiene " +edad+ " años");
-
+	alert("Usted se llama "+nombre+" y tiene "+edad+" años");
 
 
 

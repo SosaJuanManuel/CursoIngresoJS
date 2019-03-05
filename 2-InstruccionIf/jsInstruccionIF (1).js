@@ -4,15 +4,12 @@ function mostrar()
 
 //no es necesario par  
 
-	var primerNumero = edad.value;
+	var laEdad=edad.value;
 
-	primerNumero = parseInt(primerNumero)
-
-	if(primerNumero == 15)
-		{
-			alert("Niña bonita")
-
-		}
+	if (laEdad == 15) 
+	{
+		alert("niña bonita");
+	}
 
 
 

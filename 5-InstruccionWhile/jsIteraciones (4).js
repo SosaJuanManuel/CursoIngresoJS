@@ -1,14 +1,15 @@
 function mostrar()
 {
 
-	var elNumero = prompt("ingrese un número entre 0 y 9");
+	var primerNumero=prompt("ingrese un numero del 0 al 9");
 
-	elNumero=parseInt(elNumero)
+	var primerNumero=parseInt(primerNumero);
 
-	while(elNumero <0 || elNumero < 9)
+	while(isNan(primerNumero) || primerNumero <0 || primerNumero > 9)
 	{
-		elNumero=prompt("por favor, ingrese un numero entre 0 y 9");
-	}	
+		primerNumero=prompt("NUMERO INVALIDO, vuelva a intentar");
+		primerNumero=parseInt(primerNumero);
+	}
+	getElementById(Numero).value=primerNumero;
 
-	elNumero=Numero.value;
 }//FIN DE LA FUNCIÓN

@@ -8,20 +8,20 @@ function mostrar()
 	
 	var respuesta='si';
 
-	while(respuesta == si)
+		while(respuesta==si)
 	{
 		primerNumero=prompt("ingrese un numero");
 		primerNumero=parseInt(primerNumero);
-		if(primerNumero<0)
+		if(primerNumero>0)
 		{
-			negativo=negativo * primerNumero
+			positivo=positivo+primerNumero;
 		}
 		else
 		{
-			positivo=positivo+primerNumero
+			negativo=negativo*primerNumero;
 		}
-	contador++;
-	respuesta=prompt("desea ingresar otro numero?, si para continuar ")
+		contador++;
+		respuesta=prompt("desea continuar?");
 	}
 
 document.getElementById('suma').value=positivo;

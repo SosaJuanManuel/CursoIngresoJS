@@ -5,11 +5,11 @@ function mostrar()
 
 	var primerNumero=edad.value;
 
-	primerNumero = parseInt(primerNumero);
+	primerNumero=parseInt(primerNumero);
 
-	if (primerNumero >=17 || primerNumero<= 13 ) 
+	if (primerNumero <= 12 || primerNumero >=18) 
 	{
-		alert("usted es no es un adoloscente");
+		alert("usted no es un adolescente");
 	}
 
 

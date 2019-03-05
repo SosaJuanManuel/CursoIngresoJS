@@ -3,7 +3,7 @@ function mostrar()
 {
 	//alert("Esto funciona de maravilla");
 	
-	alert("sdlap");
+	alert("esto funciona de maravilla");
 
 	//otra forma es asi pero no va a saltar por alert;
 	// console.log("hola programadores");

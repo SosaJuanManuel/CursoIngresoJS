@@ -5,14 +5,14 @@ function mostrar()
 	var acumulador=0;
 	var respuesta ="si";
 
-;	while(respuesta == "si")
+	while(respuesta =="si")
 	{
-		primerNumero=prompt("dime un numero");
+		primerNumero=prompt("ingrese un Numero");
 		primerNumero=parseInt(primerNumero);
-		contador ++;
-		acumulador = primerNumero + acumulador;	
-		respuesta = prompt("ingrese si para continuar")
-
+		contador=primerNumero+contador
+		contador++
+		respuesta=prompt("desea continuar?");
+		
 	}
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/contador

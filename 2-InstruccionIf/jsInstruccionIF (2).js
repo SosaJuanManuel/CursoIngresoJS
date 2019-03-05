@@ -2,11 +2,11 @@ function mostrar()
 {
 //tomo la edad  
 
-	var primerNumero=edad.value;
+	var laEdad=edad.value
 
-	primerNumero=parseInt(primerNumero);
+	laEdad=parseInt(laEdad);
 
-	if(primerNumero > 17)
+	if (laEdad >= 18) 
 	{
 		alert("usted es mayor de edad");
 	}
