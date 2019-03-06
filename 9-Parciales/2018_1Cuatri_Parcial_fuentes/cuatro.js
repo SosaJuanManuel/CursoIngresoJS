@@ -32,8 +32,8 @@ function mostrar()
 }*/
 
 {
-	var primerNumero=prompt("dime un numero");
-	var segundoNumero=prompt("diga otro numero");
+	var primerNumero=prompt("digame un numero");
+	var segundoNumero=prompt("diga otro numero")
 	var resultado;
 
 	primerNumero=parseInt(primerNumero);
@@ -41,24 +41,32 @@ function mostrar()
 
 	if(primerNumero == segundoNumero)
 	{
-		resultado = primerNumero + segundoNumero;
-		alert(resultado);
+		alert( primerNumero + segundoNumero );
 	}
 	else
 	{
-		if(primerNumero > segundoNumero)
+		if (primerNumero > segundoNumero) 
 		{
-			resultado=primerNumero - segundoNumero;
+			resultado= primerNumero - segundoNumero;
 			alert(resultado);
 		}
 		else
 		{
-			resultado= primerNumero + segundoNumero;
-			alert(resultado);
-			if (resultado > 10) 
+			resultado=primerNumero + segundoNumero;
+			alert(resultado)
+			if (resultado > 10)
 			{
-				alert("La suma es " +resultado+ "y es menor a 50.")
+				alert("el resultado es de "+resultado+" y supero a el 10" );
 			}
 		}
 	}
+
+
+
+
+
+
+
+
+
 }

@@ -9,15 +9,15 @@ function mostrar()
 
 	alert(perimetro);*/
 
-	var ancho=prompt("digame de cuanto es el ancho");
-	var largo=prompt("y el largo?");
+	var largo;
+	var ancho;
 	var perimetro;
 
-	perimetro=ancho*2+largo*2;
+	largo=prompt("digame el largo");
+	ancho=prompt("digame el ancho");
+	perimetro=largo*2 + ancho*2;
 
 	alert(perimetro);
-
-
 
 
 

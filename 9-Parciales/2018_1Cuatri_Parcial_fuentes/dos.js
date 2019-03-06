@@ -1,9 +1,15 @@
 function mostrar()
 {
-	var nombre=elNombre.value;
-	var localidad=laLocalidad.value;
 
-	alert("tu te llamas "+nombre+" y vives en la localidad de "+localidad);
+	var nombre;
+	var localidad;
+
+	nombre=elNombre.value;
+	localidad=laLocalidad.value;
+
+	alert("usted se llama "+nombre+" y vive en la localidad de "+localidad);
+
+
 
 
 }
